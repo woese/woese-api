@@ -4,12 +4,11 @@ Woese-api
 Exchange about Woese API
 
 ## Themes
-We want to determining a best DSL of Woese Theme
-We believe thats good:
-
+We want to determining a best DSL of Woese Theme<br>
+We believe thats good:<br>
 Version pt-BR:
 
- <html>
+<html>
 <head>
     <title><woese:titulo /></title>
 </head>		
