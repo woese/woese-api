@@ -4,15 +4,16 @@ Woese-api
 Exchange about Woese API
 
 ## Themes
-We want to determining a best DSL of Woese Theme<br>
-We believe thats good:<br>
-Version pt-BR:
+We want to determining a best DSL of Woese Theme. We believe thats good:<br>
 
+### Version pt-BR:
+
+```html
 <html>
 <head>
     <title><woese:titulo /></title>
 </head>		
-<body>
+  <body>
     <section>
 
         <header>
@@ -26,7 +27,7 @@ Version pt-BR:
         <div class="conteudo">
             <div class="topo">
 
-                <ws:destaque>
+                <ws:destaques>
                     <ws:superior>
                         <div class="destaque superior" style="background-image: $imagem_url">
                             <ws:link>
@@ -34,7 +35,17 @@ Version pt-BR:
                             </ws:link>
                         </div>
                     </ws:superior>
-                </ws:destaque>
+
+                    <ws:alternativo>
+                        <div class="destaque alternativo">
+                            <ws:link>
+                                <ws:imagem>
+                                <ws:titulo maximo="60">
+                                <ws:texto maximo="120">
+                            </ws:link>
+                        </div>
+                    </ws:alternativo>
+                </ws:destaques>
 
                 <ws:destaque>
                     <ws:inferior>
@@ -56,5 +67,6 @@ Version pt-BR:
         </footer>
                         
     <section>
-</body>
+  </body>
 </html>
+```
